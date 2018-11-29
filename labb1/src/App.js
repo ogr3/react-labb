@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {HelloWorld} from "./HelloWorld";
-import {Counter} from "./Counter";
+import {ConnectedCounter} from "./Counter";
 import {Clock} from "./Clock";
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
         </header>
           <p>Hej och välkommen</p>
           <Clock />
-          <Counter />
+          <ConnectedCounter />
       </div>
     );
   }
