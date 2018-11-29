@@ -9,9 +9,10 @@ export class Counter extends React.Component {
     render() {
         return (
             <div>
+
                 <button onClick={this.props.increaseCounter}>+</button>
-                <div className='counter'>{this.props.counterValue}</div>
-                <button onClick={this.props.decreaseCounter}>-</button>
+                <div className='spinner'>{this.props.counterValue}</div>
+                { this.props.counterValue !== 666 && <button onClick={this.props.decreaseCounter}>-</button> }
             </div>
         )
     }
