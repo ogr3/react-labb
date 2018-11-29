@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {HelloWorld} from "./HelloWorld";
-import {Counter} from "./Counter-state";
+import {Counter} from "./Counter";
 import {Clock} from "./Clock";
 
 class App extends Component {
@@ -11,8 +11,8 @@ class App extends Component {
         <header className="App-header">
          <HelloWorld name={"C.A.G"}/>
         </header>
-          <p>Outside</p>
-          <Clock/>
+          <p>Hej och välkommen</p>
+          <Clock />
           <Counter />
       </div>
     );
